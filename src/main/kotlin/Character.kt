@@ -1,4 +1,4 @@
-open class Character(val name: String, var life: Int = 3, var level: Int = 1, var score: Int = 0, var hitpoints: Int) {
+open class Character(var name: String, var life: Int = 3, var level: Int = 1, var score: Int = 0, var hitpoints: Int) {
     open fun takeDamage(damage: Int) {
         val remainingHitpoints = hitpoints - damage
         if (remainingHitpoints > 0){
