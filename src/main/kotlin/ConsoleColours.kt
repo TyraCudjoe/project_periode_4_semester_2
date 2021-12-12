@@ -1,4 +1,4 @@
-class ConsoleColours {
+open class ConsoleColours {
 
 
     val ANSI_RESET = "\u001B[0m"
